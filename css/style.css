@@ -19,6 +19,119 @@ form {
     width: 100%;
 }
 
+/*----------------------------*/
+
+.invisible {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0,0,0,0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+.textBold {
+    font-weight: bold;
+}
+
+#main-comprarTickets {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-descuentos {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-descuentos article {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid lightskyblue;
+}
+
+.info-descuentos article:last-child {
+    border: 2px solid orange;
+}
+
+.formulario-venta {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.formulario-venta form {
+    max-width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-venta form input, .formulario-venta form select {
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.formulario-venta form select {
+    padding: 6.5px 5px !important;
+}
+
+.inputsNombreApellido, .inputsCantidadCategoria {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputsNombreApellido div, .inputsCantidadCategoria div {
+    width: 45%;
+}
+
+.inputsNombreApellido input {
+    width: 100%;
+}
+
+.informacion-venta {
+    width: 100%;
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacion-venta .totalPagar {
+    background-color: lightcyan;
+    margin-bottom: 25px;
+}
+
+.totalPagar p {
+    margin: 0 !important;
+    padding: 15px;
+    color: blue;
+}
+
+.inputsCantidadCategoria div {
+    display: flex;
+    flex-direction: column;
+}
+
+.informacion-venta .botones {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones button {
+    width: 45%;
+}
+
+/*----------------------------*/
+
 @media (min-width: 576px) {
     .carousel-caption{
         width: 50%;
